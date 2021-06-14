@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.grupo{
+    height: 100vh;
+    width: 100;
+    background-image: url(imagens/background.png);
+    background-position: center;    
+    background-size: cover;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    position: relative;
+}
+.barra{
+    width: 100%;
+    height: 15vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 150px;
+    cursor: pointer;
+    
+}
+.cart{
+    width: 50px;
+    cursor: pointer;
+}
+nav{
+    flex: 1;
+    padding-left: 60px;
+}
+nav ul li{
+    display: inline-block;
+    list-style: lower-alpha;
+    margin: 0px 20px;
+    font-family: poppins;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+.conteudo h1{
+    font-size: 60px;
+    font-weight: 100;
+    margin-top: 24px;
+    margin-bottom: 15px;
+    color: aliceblue;
+    font-family: Poppins;
+}
+.conteudo p{
+    font-size: 20px; 
+    color: aliceblue;
+    font-family: Poppins;
+}
+.conteudo{
+    margin-left: 10%;
+    margin-top: 10%;
+}
+.btn{
+    display: inline-block;
+    background: linear-gradient(45deg, #c40b1b, #d40886);
+    border-radius: 6px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #fff;
+    box-shadow: 3px 8px 22px rgba(94,28,68,0.16);
+    font-family: Poppins;
+}
+.icones{
+    margin-top: 40px;
+    display: flex;
+}
+.icones img{
+    width: 40px;
+    margin-right: 25px;
+}
+.mulher{
+    height: 90%;
+    position: absolute;
+    bottom: 0;
+    right: 160px;
+}
